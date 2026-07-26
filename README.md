@@ -1,6 +1,6 @@
-# safelinks
+# safelink
 SafeLink is an AI-powered phishing URL detection system that identifies malicious websites before users interact with them. Using a hybrid approach combining machine learning, heuristic analysis, similarity detection, and URL feature extraction, it classifies URLs as Safe, Suspicious, or Phishing while providing multilingual threat explanations.
-# 🛡️ SafeLink – AI-Powered Phishing URL Detection System
+# SafeLink – AI-Powered Phishing URL Detection System
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black.svg)
@@ -8,7 +8,7 @@ SafeLink is an AI-powered phishing URL detection system that identifies maliciou
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-## 📌 Overview
+##  Overview
 
 SafeLink is an AI-powered phishing URL detection system designed to identify malicious websites before users interact with them. The application uses a hybrid detection approach that combines Machine Learning, heuristic analysis, URL similarity detection, and feature extraction to classify URLs as **Safe**, **Suspicious**, or **Phishing**.
 
@@ -16,22 +16,22 @@ The system aims to improve cybersecurity awareness by providing real-time phishi
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🔍 Real-time phishing URL detection
-- 🤖 Machine Learning-based URL classification
-- ⚡ Hybrid detection using heuristic analysis
-- 🔤 Levenshtein Distance for typosquatting detection
-- 🌐 Homoglyph attack detection
-- 📊 Hybrid risk scoring mechanism
-- 🌍 Multilingual warning and explanation support
-- 💾 Database storage for analyzed URLs
-- 🎨 Simple and user-friendly web interface
-- 📈 High phishing detection accuracy
+-  Real-time phishing URL detection
+-  Machine Learning-based URL classification
+-  Hybrid detection using heuristic analysis
+-  Levenshtein Distance for typosquatting detection
+-  Homoglyph attack detection
+-  Hybrid risk scoring mechanism
+-  Multilingual warning and explanation support
+-  Database storage for analyzed URLs
+-  Simple and user-friendly web interface
+-  High phishing detection accuracy
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```text
                 User
@@ -61,7 +61,7 @@ The system aims to improve cybersecurity awareness by providing real-time phishi
 
 ---
 
-# 🧠 Detection Techniques
+#  Detection Techniques
 
 ### Machine Learning
 
@@ -82,7 +82,7 @@ Combines machine learning probability with heuristic risk scores to generate the
 
 ---
 
-# 🔍 URL Features Analyzed
+#  URL Features Analyzed
 
 The system extracts and analyzes multiple URL characteristics, including:
 
@@ -103,7 +103,7 @@ The system extracts and analyzes multiple URL characteristics, including:
 
 ---
 
-# ⚙️ Technology Stack
+#  Technology Stack
 
 ## Frontend
 
@@ -136,7 +136,7 @@ The system extracts and analyzes multiple URL characteristics, including:
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```
 SafeLink/
@@ -172,7 +172,7 @@ SafeLink/
 
 ---
 
-# 🔄 Workflow
+#  Workflow
 
 1. User enters a URL.
 2. URL features are extracted.
@@ -182,16 +182,16 @@ SafeLink/
 6. Hybrid scoring combines both results.
 7. URL is classified as:
 
-- ✅ Safe
-- ⚠️ Suspicious
-- ❌ Phishing
+-  Safe
+-  Suspicious
+-  Phishing
 
 8. Warning messages and explanations are displayed.
 9. Results are stored in the database.
 
 ---
 
-# 📊 Performance
+#  Performance
 
 | Metric | Score |
 |---------|------:|
@@ -203,7 +203,7 @@ The hybrid detection approach improves phishing detection accuracy while reducin
 
 ---
 
-# 🎯 Applications
+#  Applications
 
 - Phishing URL Detection
 - Web Security
@@ -215,7 +215,7 @@ The hybrid detection approach improves phishing detection accuracy while reducin
 
 ---
 
-# 🔮 Future Improvements
+#  Future Improvements
 
 - Browser Extension
 - Mobile Application
@@ -228,7 +228,7 @@ The hybrid detection approach improves phishing detection accuracy while reducin
 
 ---
 
-# 📚 Algorithms Used
+#  Algorithms Used
 
 - Random Forest
 - Heuristic Rule-Based Analysis
@@ -237,7 +237,7 @@ The hybrid detection approach improves phishing detection accuracy while reducin
 
 ---
 
-# 👨‍💻 Developed By
+#  Developed By
 
 **Anusree K P**
 
@@ -245,7 +245,7 @@ Bachelor of Technology (Computer Science & Engineering)
 
 ---
 
-# 📄 License
+#  License
 
 This project is developed for educational and research purposes.
 
