@@ -8,7 +8,7 @@ SafeLink is an AI-powered phishing URL detection system that identifies maliciou
 ![MySQL](https://img.shields.io/badge/MySQL-Database-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-Overview
+## 📌 Overview
 
 SafeLink is an AI-powered phishing URL detection system designed to identify malicious websites before users interact with them. The application uses a hybrid detection approach that combines Machine Learning, heuristic analysis, URL similarity detection, and feature extraction to classify URLs as **Safe**, **Suspicious**, or **Phishing**.
 
@@ -16,7 +16,7 @@ The system aims to improve cybersecurity awareness by providing real-time phishi
 
 ---
 
-Features
+## 🚀 Features
 
 - 🔍 Real-time phishing URL detection
 - 🤖 Machine Learning-based URL classification
@@ -31,7 +31,7 @@ Features
 
 ---
 
-System Architecture
+## 🏗️ System Architecture
 
 ```text
                 User
@@ -61,28 +61,28 @@ System Architecture
 
 ---
 
- Detection Techniques
+# 🧠 Detection Techniques
 
-Machine Learning
+### Machine Learning
 
 - Random Forest Classifier
 
- Similarity Detection
+### Similarity Detection
 
 - Levenshtein Distance
 - Homoglyph Detection
 
- Rule-Based Detection
+### Rule-Based Detection
 
 - Heuristic Risk Analysis
 
-Hybrid Decision Engine
+### Hybrid Decision Engine
 
 Combines machine learning probability with heuristic risk scores to generate the final phishing prediction.
 
 ---
 
- URL Features Analyzed
+# 🔍 URL Features Analyzed
 
 The system extracts and analyzes multiple URL characteristics, including:
 
@@ -103,7 +103,7 @@ The system extracts and analyzes multiple URL characteristics, including:
 
 ---
 
- Technology Stack
+# ⚙️ Technology Stack
 
 ## Frontend
 
@@ -136,7 +136,7 @@ The system extracts and analyzes multiple URL characteristics, including:
 
 ---
 
- Project Structure
+# 📂 Project Structure
 
 ```
 SafeLink/
@@ -172,7 +172,7 @@ SafeLink/
 
 ---
 
-Workflow
+# 🔄 Workflow
 
 1. User enters a URL.
 2. URL features are extracted.
@@ -191,7 +191,7 @@ Workflow
 
 ---
 
-Performance
+# 📊 Performance
 
 | Metric | Score |
 |---------|------:|
@@ -203,7 +203,7 @@ The hybrid detection approach improves phishing detection accuracy while reducin
 
 ---
 
-Applications
+# 🎯 Applications
 
 - Phishing URL Detection
 - Web Security
@@ -215,7 +215,7 @@ Applications
 
 ---
 
- Future Improvements
+# 🔮 Future Improvements
 
 - Browser Extension
 - Mobile Application
@@ -228,7 +228,7 @@ Applications
 
 ---
 
- Algorithms Used
+# 📚 Algorithms Used
 
 - Random Forest
 - Heuristic Rule-Based Analysis
@@ -237,7 +237,7 @@ Applications
 
 ---
 
- Developed By
+# 👨‍💻 Developed By
 
 **Anusree K P**
 
@@ -245,8 +245,16 @@ Bachelor of Technology (Computer Science & Engineering)
 
 ---
 
- License
+# 📄 License
 
 This project is developed for educational and research purposes.
+
+---
+
+
+
+
+
+
 
 
