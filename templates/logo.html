@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SafeLinks | Phishing Detector</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg-midnight: #0b0e14;
+      --bg-darker: #07090d;
+      --accent-cyan: #00f2ff;
+      --accent-blue: #0072ff;
+      --text-main: #ffffff;
+      --text-muted: #94a3b8;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: radial-gradient(circle at center, #1a1f2e 0%, var(--bg-midnight) 100%);
+      font-family: 'Inter', sans-serif;
+      overflow: hidden;
+    }
+
+    .logo-container {
+      text-align: center;
+      padding: 60px;
+      border-radius: 32px;
+      background: rgba(255, 255, 255, 0.02);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      box-shadow: 0 40px 100px rgba(0, 0, 0, 0.5);
+      animation: fadeIn 1s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    svg {
+      width: 140px;
+      height: 140px;
+      filter: drop-shadow(0 0 10px rgba(0, 242, 255, 0.3));
+    }
+
+    .logo-path {
+      fill: none;
+      stroke: var(--accent-cyan);
+      stroke-width: 7;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-dasharray: 600;
+      stroke-dashoffset: 600;
+      animation: draw 5.5s ease-in-out forwards, neonGlow 3s infinite alternate;
+    }
+
+    @keyframes draw {
+      to {
+        stroke-dashoffset: 0;
+      }
+    }
+
+    @keyframes neonGlow {
+      from {
+        filter: drop-shadow(0 0 5px var(--accent-cyan)) drop-shadow(0 0 10px var(--accent-cyan));
+      }
+
+      to {
+        filter: drop-shadow(0 0 10px var(--accent-cyan)) drop-shadow(0 0 25px var(--accent-cyan));
+      }
+    }
+
+    h1 {
+      margin: 24px 0 8px;
+      font-size: 36px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      background: linear-gradient(135deg, #fff 0%, #cbd5e1 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-transform: uppercase;
+    }
+
+    p {
+      margin: 0;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.4em;
+      color: var(--accent-cyan);
+      opacity: 0.8;
+      text-transform: uppercase;
+    }
+
+    .loader-bar {
+      width: 120px;
+      height: 2px;
+      background: rgba(255, 255, 255, 0.1);
+      margin: 30px auto 0;
+      position: relative;
+      overflow: hidden;
+      border-radius: 2px;
+    }
+
+    .loader-progress {
+      position: absolute;
+      width: 40%;
+      height: 100%;
+      background: linear-gradient(to right, transparent, var(--accent-cyan), transparent);
+      animation: loading 1.5s infinite ease-in-out;
+    }
+
+    @keyframes loading {
+      0% {
+        left: -40%;
+      }
+
+      100% {
+        left: 100%;
+      }
+    }
+  </style>
+
+  <script>
+    setTimeout(function () {
+      window.location.href = "/home";
+    }, 5500);
+  </script>
+</head>
+
+<body>
+  <div class="logo-container">
+    <svg viewBox="0 0 100 100">
+      <path class="logo-path" d="M30 20 H60 V35 H40 V50 H60 V80 H30 V65 H50 V50 H30 Z" />
+    </svg>
+    <h1>SAFELINKS</h1>
+    <div class="loader-bar">
+      <div class="loader-progress"></div>
+    </div>
+  </div>
+</body>
+
+</html>
